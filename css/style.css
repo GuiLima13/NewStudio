@@ -1,0 +1,145 @@
+*{
+
+    margin: 0;
+    box-sizing:border-box;
+}
+h1{
+    color: #ff8d08;
+}
+
+header{
+    background-color: #ff8d08;
+    color: white;
+    display: flex;
+    align-items: center;
+    box-shadow: -1px 4px 20px black;
+}
+#logo{
+    background: url("../img/logo.png");
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+    margin-left: 15px;
+    align-items: flex-end;
+}
+header nav{
+    display: flex;
+}
+header ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+header ul li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+main{
+    margin: 0 auto;
+    margin-top: 10px;
+}
+main section#slider{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+main section#servicos{
+    margin: 40px auto;
+    text-align: center;
+    width: 915px;
+}
+
+div#serv{
+    width: 100%;
+    display: flex;
+    
+}
+
+div.servico{
+    width: 33%;
+    height: 300px;
+    margin: 0 5px;
+}
+
+div#serv img{
+    border-radius: 2%;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+div#serv h4{
+    color: #ff8d08;
+}
+
+main section#quemsomos{
+    margin-top: 70px;
+    display: flex;
+    height: 30vh;
+}
+
+
+div#image{
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+div#image img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+div#descri{
+    
+    display: flex;
+    flex-direction:column ;
+    width: 50%;
+    align-self: center;
+    align-items: flex-start;
+    padding-right: 200px;
+}
+div#descri p{
+    text-align: justify;
+}
+main section#contato h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main section#contato {
+    margin: 50px 0;
+}
+main section#contato div#group{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+}
+div#group>div{
+    width: 50%;
+    display: flex;
+}
+div#mapa{
+    align-items: flex-start;
+    flex-direction: column;
+}
+div#form{
+    
+    align-items: flex-start;
+}
+
+div#group iframe{
+    width: 500px;
+    height: 300px;
+}
+
+footer{
+    text-align: center;
+    background: #cccccc;
+    color: #ff8d08;
+}
